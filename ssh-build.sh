@@ -4,9 +4,8 @@
 
 helper()
 {
-    echo "Usage: $0 <ANDROID_NDK_ROOT> <_PATH_SSH_PROGRAM>"
+    echo "Usage: $0 <ANDROID_NDK_ROOT>"
     echo "  ANDROID_NDK_ROOT    default is $HOME/android/android-ndk-r8e"
-    echo "  _PATH_SSH_PROGRAM   default is /system/busybox/ssh"
     exit 1
 }
 
